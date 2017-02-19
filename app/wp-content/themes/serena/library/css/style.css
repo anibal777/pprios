@@ -377,7 +377,7 @@ LAYOUT (grid comes in at 768px+)
   margin: 0 auto;
 }
 #container {
-  margin: 25px 0;
+  margin: 5px 0;
 }
 #content,
 .sidebar {
@@ -593,7 +593,7 @@ tr:nth-child(2n+1) {
 HEADER
 *********************/
 .header #inner-header {
-  margin-bottom: 44px;
+  margin-bottom: 30px;
 }
 .header #logo {
   font-size: 3em;
@@ -608,6 +608,7 @@ HEADER
 .header #blog-info {
   margin: 0;
   font-style: italic;
+  font-size: 13px;
 }
 .header p {
   margin: 15px 0;
@@ -1015,7 +1016,7 @@ Stylesheet: 768px Wide & Up Stylesheet for Serena theme
 
 ******************************************************************/
   .wrap {
-    max-width: 1140px;
+    max-width: 1120px;
   }
   #inner-header {
     float: left;
