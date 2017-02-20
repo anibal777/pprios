@@ -17,7 +17,7 @@ gulp.task('styles', function(){
 	.pipe(autoprefixer({browsers: ['> 3%', 'last 2 versions', 'ie 9', 'ios 6', 'android 4']}))
 	//.pipe(cssnano())
 	.pipe(rename({ suffix: '.min' }))
-	.pipe(cleanCSS())
+	//.pipe(cleanCSS())
 	.pipe(gulp.dest('css/'));
 });
 

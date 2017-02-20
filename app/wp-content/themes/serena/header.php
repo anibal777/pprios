@@ -29,7 +29,7 @@
 	<body <?php body_class(); ?>>
 	
 		<div id="container">
-			
+			<div id="wrap0">
 			<header class="header wrap clearfix" role="banner">
 				<div id="inner-header">
 					<p id="logo" class="h1">
