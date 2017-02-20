@@ -20,3 +20,13 @@ jQuery(document).ready(function($) {
     }
 	
 });
+
+/* script ec */
+popup = function(t, e) {
+    e.preventDefault();
+    var $t = t, _href = "";
+
+    if ($t.getAttribute('href')) _href = $t.getAttribute('href');
+    else _href = $t.getAttribute('href');
+    window.open(_href,'gec_popup','width=500,height=450,menubar=no,status=no,location=no,toolbar=no,scrollbars=yes,directories=no');
+}

@@ -120,6 +120,7 @@ function serena_scripts_and_styles() {
 
     // register main stylesheet
     wp_register_style( 'serena-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.min.css', array(), '', 'all' );
+    wp_register_style( 'awesome-stylesheet', get_stylesheet_directory_uri() . '/library/css/font-awesome.min.css', array(), '', 'all' );
 	
 	// theme customizer styles
 	require get_template_directory() . '/library/custom-styles.php';
@@ -135,7 +136,7 @@ function serena_scripts_and_styles() {
     // enqueue styles and scripts
     wp_enqueue_script( 'serena-modernizr' );
     wp_enqueue_style( 'serena-stylesheet' );
-    wp_enqueue_style('serena-ie-only');
+    wp_enqueue_style('awesome-stylesheet');
     /*
     I recommend using a plugin to call jQuery
     using the google cdn. That way it stays cached

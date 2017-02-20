@@ -21,6 +21,7 @@
 							</header> <!-- end article header -->
 					
 							<section class="entry-content clearfix" itemprop="articleBody">
+								<?php //require_once 'rrss.php' ?>
 								<?php the_content(); ?>
 							</section> <!-- end article section -->
 						
