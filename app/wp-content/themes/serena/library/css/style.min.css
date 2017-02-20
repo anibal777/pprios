@@ -564,6 +564,10 @@ td:last-child {
 tr:nth-child(2n+1) {
   background-color: #f2f2f2;
 }
+/* code */
+pre {
+  background-color: #f5f7f8;
+}
 /* TEXT FOR SCREEN READERS */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
