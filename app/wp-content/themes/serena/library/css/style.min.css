@@ -596,9 +596,7 @@ tr:nth-child(2n+1) {
 HEADER
 *********************/
 .header #inner-header {
-  margin-bottom: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-bottom: 0.5em;
 }
 .header #logo {
   font-size: 3em;
@@ -1091,6 +1089,14 @@ Stylesheet: 768px Wide & Up Stylesheet for Serena theme
   }
   /* end .nav */
   /*********************
+HEADER
+*********************/
+  .header #inner-header {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  /*********************
 FOOTER
 *********************/
   .credit {
@@ -1158,11 +1164,6 @@ based on the 1140 grid: http://cssgrid.net/
   .last {
     float: right;
     width: 355px;
-  }
-  /**
-*/
-  #main {
-    margin-left: 1em;
   }
 }
 /********* PRINT STYLESHEET **************************************/
