@@ -15,7 +15,7 @@ Git recomentations `.gitignore`
 	app/wp-config.php
 
 	
-### util 
+### util.
 
 source web for rrss
 	
